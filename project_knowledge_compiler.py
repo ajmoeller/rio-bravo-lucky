@@ -4,6 +4,8 @@ import hashlib
 import git
 from datetime import datetime
 
+__version__ = "1.1.0"
+
 def read_file(file_path):
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
